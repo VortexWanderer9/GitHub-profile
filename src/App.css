@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* body{
+    background: rgb(0, 0, 0, 0.1);
+ background: linear-gradient(to right, #f0f0f0 1px, transparent 1px), 
+                linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+
+    backdrop-filter: box-shadow(0 0 10px rgba(0, 0, 0, 0.1),
+                                0 0 10px rgba(0, 0, 0, 0.1));
+
+    background-size: 100px 100px;
+height: 100vh;
+z-index: -1;
+} */
