@@ -7,5 +7,4 @@ This project is simple
    Clone the repository:
     ```
     git clone https://github.com/VortexWanderer9/GitHub-profile.git
-    cd daily-quote  
-    ```
+   cd daily-quote     ```
