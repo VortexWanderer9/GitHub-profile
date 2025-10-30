@@ -29,7 +29,7 @@ import { useState, useEffect } from 'react'
         <img src="./light.png" alt="Light Mode" className='cursor-pointer' />
       </div>
       <div>
-        <h2 className='text-center mt-3 font-bold text-2xl text-white'>Your Ultimate GitHub Profile</h2>
+        <h2 className='text-center mt-3 font-bold dark:text-white text-2xl text-black'>Your Ultimate GitHub Profile</h2>
       </div>
       <div className='mt-6 border-2 border-cyan-700 p-5 rounded' >
       <div className='flex gap-4 items-center'>
@@ -47,7 +47,7 @@ import { useState, useEffect } from 'react'
       <div>
           <h2 className='font-bold text-center'>{git.login}</h2>
       </div>
-      <div className="details">
+      <div className="details dark:bg-white">
         <h2 className="name"> Name:<span className='text-indigo-700'>{git.name}</span></h2>
       <h2>Followers: <span className='text-indigo-700'>{git.followers}</span></h2>
       <h2>following: <span className='text-indigo-700'>{git.following}</span></h2>

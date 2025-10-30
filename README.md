@@ -1,16 +1,30 @@
-# React + Vite
+## GitHub Profile viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application that allows users to view GitHub profiles by entering a GitHub username. The application fetches and displays user information such as name, avatar, bio, and repositories.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for GitHub users by username
+- Display user profile information including avatar, name, bio, and location
+- List of public repositories with links
 
-## React Compiler
+### Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- HTML
+- CSS
+- JavaScript
+- GitHub API
 
-## Expanding the ESLint configuration
+### Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VortexWanderer9/github-profile-viewer.git
+   cd github-profile-viewer
+   ```
+
+### Usage
+
+1. Enter a GitHub username in the search bar.
+2. Click the "Search" button.
+3. View the user's profile information and repositories.
